@@ -1,0 +1,11 @@
+describe("MDC", function(){
+
+
+    it("mdc",function(){
+        var ExpResult = 10;
+        var result = mdc(10,20);
+
+        expect(ExpResult).toEqual(result);
+    })
+
+});
